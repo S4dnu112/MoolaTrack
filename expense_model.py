@@ -93,7 +93,7 @@ class Expense:
 
         days_in_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
         
-        start = datetime.strptime(self.start_date, "%Y-%m-%d").date() if self.start_date != "N/A" else self.date_added
+        start = datetime.strptime(self.start_date, "%Y-%m-%d").date() if self.start_date != "N/A" else datetime.strptime( self.date_added, "%Y-%m-%d").date()
         end = datetime.strptime(self.end_date, "%Y-%m-%d").date() if self.end_date != "N/A" else datetime.now().date()
         passed = end - start                            
                     
