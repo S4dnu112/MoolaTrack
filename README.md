@@ -111,21 +111,21 @@ To view expense history, use ***-s*** or ***--summary*** flag.
 
 ## Files
     > utils.py
-        contains helper functions for parsing  arguments, displaying piechart, generating database connection, generating cowsay messages, and mapping categories
+        contains helper functions for parsing  arguments, displaying piechart, 
+        generating database connection, generating cowsay messages, and mapping categories
 
     > expense_model.py
-        serves as a blueprint for an expense entry, composed of attributes like amount, category, recurrence, description, etc.
-
-    > database.db
-        a sqlite3 database that holds persistent expense data
+        serves as a blueprint for an expense entry, 
+        composed of attributes like amount, category, recurrence, description, etc.
 
     > project.py
-        the heart of the program, handling main functionalities such as adding and removing expenses, viewing summaries, and tracking expense history.
+        the heart of the program, handling main functionalities such as adding and
+        removing expenses, viewing summaries, and tracking expense history.
 
     > test_project.py
         contains the unit tests for the project, ensuring its functionality and reliability
 
-## Developer Notes
+## Developer Yap
 Building this tool helped me become a better programmer. I learned the best practices and how can I apply them, though personally I still hate comments and documentations (￣_,￣ ). I've had a lot of dilemmas while building this, whether to put helper functions on different files, whether to change the folder structure, whether to use this or that design... Eventually though, I learned what to do, and I decided that this is the best design my program can have. I think this is the most beautiful program I've ever made, and I'm proud of it. Although this is just command line tool, I think it will perform well and serve its purpose, I myself needs an expense tracker, and this is just the right tool for me. No BS just Track. Although there's a cow...
 
 ### Side Note
