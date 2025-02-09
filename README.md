@@ -76,9 +76,9 @@ Use ***-e*** or ***--expense*** flag when adding an expense data. Provide the am
     > Credited: 2 * amount
 
 #### Outputs:
-<img src="/workspaces/138868295/CS50p/Final_Project/project/docs/add_expense_transpo.png" alt="add_expense_food" width="400">
+<img src="docs/add_expense_transpo.png" alt="add_expense_food" width="400">
 
-<img src="/workspaces/138868295/CS50p/Final_Project/project/docs/add_expense_food.png" alt="add_expense_transpo" width="500">
+<img src="docs/add_expense_food.png" alt="add_expense_transpo" width="500">
 
 
 ### Removing an expense data:
@@ -97,7 +97,7 @@ To view expense history, use ***-a*** or ***--all*** flag.
 - `python project.py -a`
 
 ##### Output:
-<img src="/workspaces/138868295/CS50p/Final_Project/project/docs/expense_history.png" alt="expense_history" width="600">
+<img src="docs/expense_history.png" alt="expense_history" width="600">
 
 
 ### Viewing expense summary:
@@ -107,7 +107,7 @@ To view expense history, use ***-s*** or ***--summary*** flag.
 - `python project.py -s`
 
 ##### Output:
-<img src="/workspaces/138868295/CS50p/Final_Project/project/docs/expense_summary.png" alt="expense_summary" width="500">
+<img src="docs/expense_summary.png" alt="expense_summary" width="500">
 
 ## Files
     > utils.py
@@ -126,8 +126,10 @@ To view expense history, use ***-s*** or ***--summary*** flag.
         contains the unit tests for the project, ensuring its functionality and reliability
 
 ## Developer Notes
-
 Building this tool helped me become a better programmer. I learned the best practices and how can I apply them, though personally I still hate comments and documentations (￣_,￣ ). I've had a lot of dilemmas while building this, whether to put helper functions on different files, whether to change the folder structure, whether to use this or that design... Eventually though, I learned what to do, and I decided that this is the best design my program can have. I think this is the most beautiful program I've ever made, and I'm proud of it. Although this is just command line tool, I think it will perform well and serve its purpose, I myself needs an expense tracker, and this is just the right tool for me. No BS just Track. Although there's a cow...
+
+### Side Note
+This is my final project on CS50's introduction to programming with Python
 
 
 
